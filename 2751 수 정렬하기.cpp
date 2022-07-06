@@ -1,13 +1,7 @@
-#include <stdio.h>
-
-int number = 10;
-int array[] = { 1, 10, 5, 8, 7, 6, 4, 3, 2, 9 };
-
-void show() {
-	for (int i = 0; i < number; i++)
-		printf("%d ", array[i]);
-}
-
+#include<iostream>
+#include<algorithm>
+using namespace std;
+/*
 void QuickSort(int* array, int start, int end) {
 	if (start >= end)
 		return;
@@ -38,10 +32,15 @@ void QuickSort(int* array, int start, int end) {
 	QuickSort(array, start, j - 1);
 	QuickSort(array, j + 1, end);
 }
+*/
 
-int main() {
-	QuickSort(array, 0, number - 1);
-	show();
-
-	return 0;
+int main(){
+    int n;cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++) cin>>arr[i];
+    sort(arr,arr+n);
+    //QuickSort(arr,0,n-1);
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<"\n";
+    }
 }
