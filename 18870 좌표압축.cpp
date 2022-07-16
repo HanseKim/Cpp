@@ -21,12 +21,6 @@ int main(){
 		v.push_back({k,i});
 	}
 	sort(v.begin(),v.end());
-	/*
-	for(int i=0;i<n;i++){
-		printf("<f:%d s:%d> ",v[i].first,v[i].second);
-	}
-	cout<<"\n";
-	*/
 	int cnt=0;
 	for(int i=0;i<n;i++){
 		if(i==0){
