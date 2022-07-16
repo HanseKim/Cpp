@@ -10,10 +10,9 @@
  */
 
 //ios::sync_with_stdio(false);
+//c,c++의 stream의 동기화를 끊는 역할을 해서
+//c++에서 쓴다면 C의 입출력을 쓰지않도록 조심해야한다.
 //cin.tie(NULL);
-//위 두개는 c,c++의 stream의 동기화를 끊는 역할을 해서
-//c++에서 위 두개를 쓴다면 C의 입출력을 쓰지않도록 조심해야한다.
-
 #include<iostream>
 #include<map>
 using namespace std;
