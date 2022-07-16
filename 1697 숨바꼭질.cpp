@@ -1,3 +1,13 @@
+/**
+ * @file 1697 숨바꼭질.cpp
+ * @author HanseKim(kimbird2002@naver.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-07-17
+ * @see https://www.acmicpc.net/problem/1697
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #define MAX 100001
 #include<iostream>
 #include<queue>
