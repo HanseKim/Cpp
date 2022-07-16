@@ -6,14 +6,6 @@ using namespace std;
 vector<pair<int,int>> v;
 vector<pair<int,int>> v2;
 
-bool cmp_n(pair<int,int> v1,pair<int,int> v2){
-	if(v1.first < v2.first) return v1.first < v2.first;
-	else return v1.first > v2.first;
-}
-bool cmp_idx(pair<int,int> v1,pair<int,int> v2){
-	if(v1.second < v2.second) return v1.second < v2.second;
-	else return v1.second > v2.second;
-}
 int main(){
 	int n; scanf("%d",&n);
 	for(int i=0;i<n;i++){
