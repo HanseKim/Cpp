@@ -1,3 +1,13 @@
+/**
+ * @file 18870 좌표압축.cpp
+ * @author HanseKim
+ * @brief 
+ * @version 0.1
+ * @date 2022-07-17
+ * @see https://www.acmicpc.net/problem/18870
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<iostream>
 #include<algorithm>
 #include<vector>
