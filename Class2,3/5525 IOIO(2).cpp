@@ -1,6 +1,6 @@
 /**
  * @file 5525 IOIO.cpp
- * @author your name (you@domain.com)
+ * @author HanseKim (kimbird2002@naver.com)
  * @brief 내 코드는 아니지만 좋은 코드라서 저장한다.
  * @version 0.1
  * @date 2022-07-21
